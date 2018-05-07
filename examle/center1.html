@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> CSS</title>
+<style type="text/css">
+<!--
+
+.outer {
+    height: 20em;
+    position: relative;
+    border: 1px solid blue;
+    background: #EEE;
+    text-align: center;
+}
+.inner {
+    position: absolute;
+    margin-left: 50%;
+    width: 100px;
+    top: 50%;
+    margin-top: -0.625em ;
+    border: 1px solid green;
+}
+.outer1 {
+    line-height: 120px;
+}
+.inner1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.25;/* return old */
+    border: 1px solid red;
+}
+.before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.inner2 {
+
+}    
+.outer2 {
+    text-align: center;
+    
+}
+
+.testImg {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+img {
+    vertical-align: middle;
+}
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    background: #EFE;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EEF;
+}
+
+.outer3 {
+    display: table;
+    width: 100%;
+    background: #FEE;
+}
+.inner3 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.block {
+    text-align: center;
+}
+.block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-top: -0.25em;
+}
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    background: #DEE;
+}
+
+
+
+
+
+-->
+</style>
+
+<script type="text/javascript" >
+<!--
+
+-->
+</script>
+
+</head>
+<body>
+<div class="outer">
+    <div class="inner">Text</div>
+</div>
+
+<div style="display: table;width: 50%">
+    <div style="display: table-cell;vertical-align: middle; height: 100px; 
+    border: 1px solid black;">
+	Inner: Absolute <br/>Outer: Relative top 50% height 10em margin-top -5em inner
+    </div>
+</div>
+<div class="outer1" style="height: 120px; border: 1px solid blue;">
+    <div class="inner1">Outer line-height: 4em <br />Inner vertical-align: middle</div>
+</div>
+
+<div class="outer2" style="height: 100px; width: 140px;border: 1px solid black;">
+    <span class="inner2" style="border: 1px solid red;">Center <br />Element</span>
+</div>
+
+
+<span class="testImg"><img src="mouse.png" />mouse</span>
+
+<img class="displayed" src="mouse.png" />
+
+
+<p class="blocktext">jjjdfjlgjlj dfjgdj jdfj</p>
+
+<div class="outer3">
+    <div class="inner3">Outer display: table<br />Inner display:table-cell text-align: center vertical-align: middle</div>
+</div>    
+
+<div class="block">
+    <div class="centered">any width and height</div>
+</div>
+
+
+
+
+</body>
+    
+</html>

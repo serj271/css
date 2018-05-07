@@ -1,0 +1,50 @@
+body {
+    background:#69c;
+}
+.border{
+    width: 200px;
+    position: relative;
+    margin: 100px 100px;
+}
+.border .content{
+    padding:20px;
+/*    border: 2px solid #369;*/
+    background: #f9f7ac;/*  forma */
+    border-left: 2px solid #6466c8;
+    border-right: 2px solid #6466c8;
+}
+.border .png{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left:0;       
+    overflow: hidden; 
+}
+.border .top{
+    top: -10px;
+/*    background: #fff;*/
+}
+.border .png i{
+/*    position: absolute;
+    height: 20px;
+    left:-10px;
+    background: #f60; */        
+    width: 100%;
+}
+.border .png b{
+/*    position: absolute;
+    height: 20px;
+    left: -10px;*/
+    margin-left: 100%;
+    width: 10px;
+/*    background: #f00;  */
+}
+.border .bottom i, .border .bottom b{
+    top: -10px;
+}
+.border .png i, .border .png b{
+    position: absolute;
+    height: 20px;
+    left: -10px;
+    background: url(./border-5.png) no-repeat;
+}

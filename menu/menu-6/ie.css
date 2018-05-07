@@ -1,0 +1,31 @@
+*html .border{
+    zoom: 1;
+}
+
+*html .border .png{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='./star.png',
+    sizingMethod='crop'
+    );
+
+    }
+*html .border{
+  /* font-size:0;*/
+    overflow:hidden;
+    *}
+
+#menu ul{
+    text-align: center;
+}
+
+#menu li{
+    float: left;
+    width: expression(
+	100 / this.parentNode.childNodes.length + '%'
+    );
+    margin-right:expression(
+	this == parentNode.lastChild? '-10px': '1px'    
+    );
+
+}

@@ -1,0 +1,30 @@
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+#styled input, #styled button {
+    background-color: #e0f7ff;
+}
+input, button {
+
+}
+
+
+#styled input[type="submit"]:focus, #styled button[type="submit"]:focus {
+    border: 2px solid green;
+    outline: none;
+}
+
+:disabled {
+    background-color: #ddd;
+}
+
+input[type="number"]:in-range{
+    border: 5px solid green;
+}
+
+
+input[type="number"]:out-of-range{
+    border: 5px solid red;
+}

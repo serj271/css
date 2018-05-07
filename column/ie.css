@@ -1,0 +1,18 @@
+*html #main {
+    height:100%; /* for ie 6 only */
+}
+*html #container {
+    width:expression(
+        (document.documentElement.clientWidth || document.body.clientWidth)
+        < 800 ? '800px' :
+        (document.documentElement.clientWidth || document.body.clientWidth)
+        > 1000 ? '1000px' : 'auto'
+    );
+}
+
+*html #all {
+    width:100%;
+    }
+*html #left{
+margin-right:-100%;
+    *}

@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> CSS</title>
+<style type="text/css">
+<!--
+
+h2:before{
+    content: counter(chapter) ".";
+    counter-increment: chapter;
+    counter-reset: section;
+} 
+h1:before{
+    content: counter(chapter) "." counter(section) " ";
+    counter-increment: section;
+}
+ol {counter-reset: item;}
+li {display: block;}
+li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+}
+.container {
+    border: 1px solid black;
+    position: relative;
+}
+.content {
+    margin-left: 35px;
+}
+.toggle {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    width: 30px;
+    float: left;
+    background: #EEE url("exit.png") center center no-repeat;
+    border-right: #AAA 1px solid;
+    cursor: pointer;
+}
+
+
+
+-->
+</style>
+
+</head>
+<body>
+<div class="outer">
+    <div class="inner">Text</div>
+</div>
+
+
+<div class="container">
+    <div class="toggle"></div>
+    <div class="content">text		
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+    
+</html>

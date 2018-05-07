@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>checkbox</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+<form id="questions" method="post" action="#">
+    <fieldset>
+        <legend>What is your favorite</legend>
+        <input id="blue" name="fav-color" type="checkbox" value="blue">
+        <label for="blue">blue</label>
+        <input id="red" name="fav-color" type="checkbox" value="red">
+        <label for="red">red</label>
+        <div>
+            <input type="text" id="name" name="name" required>
+            <label for="name">Name</label>
+        </div>
+        <div>
+            <input type="text" id="email" name="email">
+            <label for="email">Email</label>
+        </div>
+        <div>
+            <textarea id="description" name="description">Enter text here...</textarea>
+            <label for="description">description</label>
+        </div>
+    </fieldset>
+    <input type="submit" />
+</form>
+
+</body>
+</html>

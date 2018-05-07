@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Panel</title>
+    <style type="text/css">
+        #panelTitle{
+            display:block;
+            border:1px solid black;
+            background-color:#DFDFDF;
+        }
+        #panel {
+            border: 1px solid black;
+            border-top: 0;
+            display:block;
+        }
+    </style>
+    <script type="text/javascript">
+        function changePanel(){
+            var panel = document.getElementById('panel');
+              var panelTitle = document.getElementById('panelTitle');
+            if(panel.offsetHeight ==0){
+                panel.style.display = '';
+                panelTitle.replaceChild(document.createTextNode('hide'), document.getElementById('panelTitle').firstChild)
+            }else{
+                panel.style.display = 'none'
+               panelTitle.replaceChild(document.createTextNode('show'), document.getElementById('panelTitle').firstChild)
+                                
+            }
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+<a  href="javascript:changePanel()"  id="panelTitle">Hide</a>
+<div id="panel">
+    dfgfdgdg<br>    dfgfdgdg<br>
+    dfgfdgdg<br>
+    dfgfdvdfvdvgdg<br>
+    dfgfdvdvdvdvvvvvvvvvvvvvvvvvvvvvvvdgdg<br>
+    dfgffvdddddddddddddddddddgdg<br>
+    dfgfdgdg<br>    dfgfdgdg<br>
+    dfgfdgdg<br>
+    dfgfdgdg<br>
+    dfgfdgdg<br>
+
+</div>
+
+
+</body>
+</html>

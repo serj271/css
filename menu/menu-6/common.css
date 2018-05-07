@@ -1,0 +1,76 @@
+html, body, #container{
+    margin:0;
+    height:100%;
+}
+
+#menu {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    background: #f0f0f0;
+}
+#menu ul{
+    display: table;    
+    border-collapse: separate;
+    border-spacing: 1px;
+    width:100%;
+    table-layout: fixed;
+    overflow: hidden;
+/*    display: table-row;*/
+/*    border: 5px solid #666;*/
+    list-style: none;
+    margin:0;
+    padding: 0;/* for all except IE */
+}
+
+#menu li{
+    display: table-cell;
+    position: relative;
+}
+.caption{
+    display:table-caption;
+}
+
+#menu li a{
+    display: inline-block;    
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+/*    padding: 0 20px;*/
+    background: #69c;
+
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+b.png{
+    position:absolute;
+    width: 10px;
+    height: 52px;
+    background: url(./menu_table_3.png) no-repeat 0 0;
+/*    background:#000;*/
+/*    left:-10px;*/
+}
+b.png.l{
+    left: 0;
+    top: -1px;
+}
+
+b.png.r{
+    right: 0;
+    top: -1px;
+    background-position: -10px 0;
+}
+
+#menu li a:hover {
+    background: #369;
+}
+
+#menu li a:hover b.png.l{
+    background-position: 0 -52px; 
+}
+#menu li a:hover b.png.r{
+    background-position: -10px -52px; 
+}
+

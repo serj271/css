@@ -1,0 +1,19 @@
+*html #main{
+    height:100%;
+
+}
+*html #footer .border{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src = 'i/star_70.png',
+        sizingMethod = 'crop'
+    );
+}
+*html #all{
+    width:100%;
+    color: red;
+    
+}
+#menu a{
+    cursor:pointer;
+}

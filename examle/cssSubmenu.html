@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> CSS Submenu</title>
+<style type="text/css">
+<!--
+.menu, .menu ul {
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #CCC;
+    }
+.menu li {
+    list-style: none;
+    position: relative;
+    border: 1px solid #CCC;
+    border-bottom: none;
+    height: 2em;
+}
+
+.menu ul {
+    position: absolute;
+    display: none;   /* submenu */
+    top: -1px;
+    left: 178px;
+}
+
+.menu .sprite-1rightarrow { 
+    background-position: 0 -96px; width: 16px; height: 16px;
+    color: #FFD; 
+} 
+
+.menu a {
+    padding: 5px;
+    display: block;
+    background: url(csg-50.png)  no-repeat;
+    color: #666;
+    text-decoration: none;
+    }
+    
+.menu ul a {
+    background-image: none;
+}
+    
+.menu li:hover {
+    background-color: #f0f0f0;
+}
+.menu li:hover ul {
+    display: block;
+}
+.menu .nobullet {
+    background-image: none;
+}
+
+	
+
+
+
+-->
+</style>
+
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+<!--
+
+$(document).ready(
+    function(){
+    }
+);
+
+
+-->
+</script>
+
+</head>
+<body>
+
+<ul class="menu ">
+    <li ><a href="rr.html">General</a>
+	<ul>
+	    <li ><a class="sprite-1rightarrow" href="#">Sub general</a></li>
+	    <li><a href="#">General continue</a></li>
+	</ul>
+    </li>
+    <li><a href="1.html">Mephod simple operation</a></li>
+    <li><a href="2.html">Mephod dixotami</a></li>
+</ul>
+
+
+</body>
+</html>

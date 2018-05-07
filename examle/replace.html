@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> CSS</title>
+<style type="text/css">
+<!--
+body {
+    font: 18px sans-serif;
+}
+h4 p {
+    margin: 5px;
+}
+div {
+    background: #70d6f0;
+    border: 1px solid #7ac3d5;
+    margin: 3px;
+}
+
+
+
+-->
+</style>
+
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+<!--
+
+$(document).ready(function(){
+    $('input#tmpQuote1').click(
+	function($e){
+	    $e.preventDefault();//not forma
+	    $(this).replaceWith(
+		"<p>I would</p>\n"
+	    );	    
+	}
+    );
+		
+});
+
+
+-->
+</script>
+
+</head>
+<body>
+
+<h4>More </h4>
+<div>
+    <input type="submit" id="tmpQuote1" value="View Quote 1" />
+</div>    
+<div>
+    <input type="submit" id="tmpQuote2" value="View Quote 2" />
+</div>    
+
+
+
+</body>
+    
+</html>

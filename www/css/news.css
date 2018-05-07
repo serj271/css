@@ -1,0 +1,59 @@
+html {
+    background: #678;
+    color: #333;
+    font: 16px calibry, sans-serif;
+}
+
+html, body, #container {
+    margin:0;
+}
+
+#container{
+    width: 900px;
+    margin: auto;
+/*    height: 500px;*/
+    padding: 10px;
+    background: #fff;
+
+}
+
+#header{
+    height: 100px;
+    background: #cff;
+}
+#footer{
+    height: 100px;
+    background: #fcf;
+}
+#outer{
+    margin:10px 0;
+    background: url(../i/right.png) repeat-y 100%;
+
+}
+
+#inner{
+/*    height: 300px;*/
+    background: url(../i/left.png) repeat-y 0 0;
+}
+
+
+#left{
+    float: left;
+    width: 200px;
+
+}
+
+#right{
+    float: right;
+    width: 200px;
+}
+
+#center{
+    margin: 0 210px;
+}
+#end{
+    clear: both;
+}
+
+
+

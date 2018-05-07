@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; chatset=utf-8" />
+
+<title>CSS Resolution Demo</title>
+<link rel="StyleSheet" href="css/basic.css" type="text/css" />
+<style type="text/css">
+.message:before {
+    content: 'g';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.message  {
+    display: inline-block;
+    width: 30em;    
+    text-align: center;
+    border: 1px solid blue;
+    margin: 2em;
+    font: .8em/1.25 Arial, sans-serif;
+}
+.message h2{
+    text-align: center;
+    background: #AEF;
+    margin: 0 0 0.8em 0;
+    
+}
+.block{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #DDD;
+    background: #eee;
+}
+.spacer {
+    width: 50px;
+    height: 80%;
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background: #FFF;
+}
+
+
+
+</style>
+
+
+<script type="text/javascript">
+<!--
+
+var cssName;
+var resolutionInfo;
+    if(screen.availWidth<650){
+	cssName='css/lowres.css';
+	resolutionInfo='low resolution';
+    } else {
+    if (screen.availWidth>1000){
+	cssName='css/highres.css';
+	resolutionInfo='hight resolution';
+    } else {
+	cssName='css/lowres.css';
+	resolutionInfo='medium resolution';
+    }
+}
+//alert(resolutionInfo);
+document.write('<link rel="StyleSheet" href="'+cssName+'" type="text/css" />');
+    
+-->
+</script>
+</head>
+<body >
+<p> Ul </p>
+
+<div class="block">
+<div class="spacer"></div></div>
+
+
+<div class="message">
+<h2>Header</h2>
+<p>okfdefgkrg [ [reg [g e[g [erprper t e[ tr[ te[ e[r e[rt er[ e[r te[
+erte tore toe </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+html, body, #container{
+    margin:0;
+    height:100%;
+}
+html {
+    background:#fff;
+    color:#333;
+}
+#container{
+    min-width:800px;
+    max-width:1000px;
+    margin:auto;
+   /* background:#ccc;*/
+}
+#main {
+    min-height:100%;
+    margin:0 0 -100px;
+  /*  background:#ccf;*/
+}
+#all {
+    overflow:hidden;
+    padding:0 0 100px;
+}
+#footer{
+    height:100px;
+    background:#fcc;
+}
+#left {
+    float:left;
+    width:200px;
+    background:#fcc;
+}
+#right {
+    float:right;
+    width:200px;
+    background:#cfc;
+}
+#center {
+    margin:0 200px;
+     background:#ccf;
+}

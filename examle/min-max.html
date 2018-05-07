@@ -1,0 +1,54 @@
+<!DOCTYPE html">
+<html>
+<head><title> CSS</title>
+<style type="text/css">
+<!--
+body {
+    font: 18px sans-serif;
+}
+div.out {
+    background: #ccf;
+    padding: 50px 0;
+/*    min-width: 800px;
+    max-width: 1000px;*/
+    width: 50%;
+}
+div.in{
+    width: 900px; 
+    background: #369;
+    padding: 50px 0;
+    border-radius: 30px;
+    --webkit-border-radius: 30px;
+}
+
+-->
+</style>
+<!--[if lte IE 6]>
+<style type="text/css">
+    #out{
+	width:expression(
+	    (document.documentElement.clientWidth ||
+	    document.body.clientWidth)< 800? '800px':'auto'
+	    
+	)
+    }
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+</script>
+
+</head>
+<body>
+
+<div class="out">
+    <div class="in">in</div>
+</div>
+
+
+
+
+</body>
+    
+</html>

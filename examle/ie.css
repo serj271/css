@@ -1,0 +1,28 @@
+*html #main{
+    height: 100%;
+}
+*html #container {
+    width: expression(
+	(document.documentElement.clientWidth || document.body.clientWidth)
+	< 800? '800px':
+	(document.documentElement.clientWidth || document.body.clientWidth)
+	> 1000? '1000px': 'auto'	
+    
+    );
+}
+
+*html #footer .border{
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src = 'i/star_70.png',
+        sizingMethod = 'crop'
+    );
+}
+*html #all{
+    width: 100%;
+}
+
+#html #left{
+     margin-right: -100%;/* float exception elem from all elems for IE 6 only */
+}
+

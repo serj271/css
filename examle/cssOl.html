@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> CSS Ol</title>
+<style type="text/css">
+<!--
+li {
+    display: block;
+}
+ol {
+    counter-reset: Item;
+}
+li:before {
+    content: counters(Item,".")" ";
+    counter-increment:Item;
+}
+
+
+
+-->
+</style>
+
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+<!--
+
+$(document).ready(
+    function(){
+    }
+);
+
+
+-->
+</script>
+
+</head>
+<body>
+
+
+<ol>
+    <li>List Item</li>
+    <li>List Item
+	<ol>
+	    <li>List Item</li>
+	    <li>List Item</li>
+	</ol>
+    </li>
+    <li>List Item</li>    
+    <li>List Item</li>
+</ol>
+
+
+
+
+
+
+</body>
+</html>

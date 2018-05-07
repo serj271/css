@@ -1,0 +1,32 @@
+*html .border{
+    zoom: 1;
+}
+
+*html .border .png{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='./star.png',
+    sizingMethod='crop'
+    );
+
+    }
+*html .border{
+  /* font-size:0;*/
+    overflow:hidden;
+
+
+    *}
+
+#menu li ul{
+    top: 100%;
+}
+
+#menu li ul{
+    width: 15em;
+}
+/*
+*html #menu{
+    behavior:url(./csshover3.htc);
+}
+*/
+

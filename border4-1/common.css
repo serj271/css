@@ -1,0 +1,60 @@
+body {
+    background:#f60;
+}
+.border{
+    margin:100px;
+    background:#ffc;
+    position:relative;
+    overflow:hidden;
+}
+.border .content{
+    padding:20px;
+    border: 2px solid #369;
+}
+.border .png{
+    position:absolute;
+    width:40px;
+    height:60px;
+    background:url(./border-wide.png) no-repeat;
+    clip: rect(0 20px 20px 0);/* top-right and bottom-left*/
+/*    background:#000;*/
+    left:-10px;
+}
+.border .lt{
+    top:-10px;
+}
+.border .rt{
+    top:-10px;
+    margin-left:100%;
+}
+.border .lb{
+    margin-top:-10px;
+}
+.border .rb{
+     margin-top:-10px;
+     margin-left:100%;
+}
+.wide {
+
+}
+.wide .content {
+    border-width:4px;
+}
+.wide .png{
+    clip:rect(20px 40px 60px 0);
+    left: -20px;
+}
+.wide .lt, .wide .rt{
+    top: -40px;
+}
+
+.wide .lb, .wide .rb{
+    margin-top: -40px;
+}
+
+
+
+
+
+
+

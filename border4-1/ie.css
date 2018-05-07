@@ -1,0 +1,18 @@
+*html .border{
+    zoom: 1;
+}
+
+*html .border .png{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='./border-wide.png',
+    sizingMethod='crop'
+    );
+
+    }
+*html .border{
+  /* font-size:0;*/
+    overflow:hidden;
+
+
+    *}

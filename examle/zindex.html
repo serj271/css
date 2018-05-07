@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>Стэк слоев — правило z-index</title>
+<style type="text/css">
+#outer{
+	position:relative;/* no static -> z index > 0 */
+	margin:100px;
+	padding:100px;
+	background:#ccf;
+}
+#outer div{
+	position:absolute;/* no static -> z index > 0 */
+	width:200px;
+	height:200px;
+}
+#inner{
+	background:#cfc;
+	left:-50px;
+	top:-50px;
+	z-index:1;
+}
+#test{
+	background:#ffc;
+	left:50px;
+	top:50px;
+}
+</style>
+</head>
+<body>
+	<div id="outer">
+		<div id="inner"></div>
+		<div id="test"></div>
+		text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+	</div>
+</body>
+</html>

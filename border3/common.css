@@ -1,0 +1,23 @@
+body {
+    background:#f60;
+}
+.border{
+    width:200px;
+    font-size:2em;
+    background:#ffc url(border_big.gif) no-repeat 100% 100%;
+}
+.border .out {
+    background:url(border_big.gif) no-repeat;
+    padding:10px 10px 0 0 ;
+}
+.border .in{
+      background:url(border_big.gif) no-repeat 0 100%;
+
+}
+.border .content{
+    padding:20px 20px 10px 10px;
+    background: url(border_big.gif) no-repeat 100% 0;
+    position:relative;
+    left:10px;
+    top:-10px;
+}

@@ -1,0 +1,75 @@
+<!doctype html">
+<html>
+<head><title> CSS</title>
+<style type="text/css">
+<!--
+html, body{
+
+}
+body {
+    margin: 0;
+}
+#ul {
+    counter-reset: d1 0;
+}
+#ul div{
+    margin: 0 0 0 40px;
+}
+#ul div:before {
+    content: counter(d1, upper-roman) '.';
+    counter-increment:d1;
+}
+
+#ul span{
+    display: block;
+    margin: 0 0 0 20px;
+}
+#ul span:before{
+    content: counter(d1, upper-roman) '.' counter(d2, lower-alpha) '. ';/* text-size-adjust */
+    counter-increment:d2 2;
+}
+
+ol {
+    counter-reset: w 0;
+}
+ol li:before{
+    content: counters(w, '.', decimal) '. ';
+    counter-increment:d1;
+    counter-increment:w 1;
+}
+
+
+
+-->
+</style>
+
+</head>
+<body>
+
+    <div id="ul">
+	<div>Glava1
+	    <span>Razdel</span>
+	</div>
+	<div>Glava2
+	    <span>Razdel</span>
+	    <span>Razde2</span>
+	</div>
+    </div>
+    <ol>
+	<li>Glava
+	    <ol>
+		<li>Razdel
+		    <ol>
+			<li>P1</li>
+		    </ol>
+		
+		</li>
+	    </ol>
+	</li>
+    
+    </ol>
+
+
+</body>
+    
+</html>

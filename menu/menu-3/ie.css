@@ -1,0 +1,26 @@
+*html .border{
+    zoom: 1;
+}
+
+*html .border .png{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='./star.png',
+    sizingMethod='crop'
+    );
+
+    }
+*html .border{
+  /* font-size:0;*/
+    overflow:hidden;
+    *}
+
+#menu ul{
+    text-align: center;
+}
+
+#menu li{
+    zoom:1;
+    display: inline;
+    text-align: left;
+}

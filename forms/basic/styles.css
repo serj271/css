@@ -1,0 +1,9 @@
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+input[type="file"]{
+    font-size: 3em;
+    color: red;
+    padding-top: .5em;
+}

@@ -1,0 +1,24 @@
+html {
+    height:100%;
+}
+body {
+    height:100%;
+    margin:0;
+}
+#main {
+    width:800px;
+    min-height:100%;
+    margin:0 auto;
+    margin:0 auto -150px;
+    background:#cfc;
+}
+#all {
+   padding:0 0 150px ;
+}
+#footer {
+    height:150px;
+    width:800px;
+    margin:auto;
+    background:#ccf;
+
+}

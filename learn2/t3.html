@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Документ без названия</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: large;
+}
+a img {
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* автоматическое задание величин по бокам в совокупности с шириной центрирует макет */
+}
+
+/* ~~ верхнему колонтитулу не задана ширина. Он растянется на всю ширину макета. Он содержит заполнитель для изображения, который должен быть заменен логотипом по ссылке ~~ */
+.header {
+	background-color: #ADB96E;
+}
+
+
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+
+	padding: 10px 0;
+	width: 780px;
+	float: left;
+}
+
+/* ~~ Этот сгруппированный селектор выдает списки в пространстве .content ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+
+
+ul.nav {
+	list-style: none; /* удаляет маркер списка */
+	border-top: 1px solid #666; 
+	margin-bottom: 15px; /* создает пространство между навигацией по содержимому ниже */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* разделяет кнопки */
+}
+ul.nav a, ul.nav a:visited { /* группировка этих селекторов гарантирует, что ссылки будут выглядеть как кнопки даже после того, как пользователь перейдет по ним */
+	padding: 5px 5px 5px 15px;
+	display: block; /* наделяет ссылку свойствами блока, из-за чего она заполняет весь содержащий ее элемент LI. При этом вся область реагирует на щелчок мышью. */
+	width: 160px;  /*такая ширина позволяет нажимать всю кнопку в IE6. Если вам не нужна поддержка IE6, это можно удалить. Чтобы вычислить правильную ширину, вычтите ширину полей этой ссылки из ширины контейнера боковой панели. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* изменяет цвет текста и фона при навигации с помощью клавиатуры и мыши */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ Нижний колонтитул ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;/* IE6 получает hasLayout для правильной очистки */
+	clear: both; /* это свойство очистки заставляет .container видеть место окончания столбцов и включать их */
+}
+
+/* ~~ прочие классы float/clear ~~ */
+.fltrt {  /* этот класс можно использовать для обтекания элемента справа на странице. Обтекаемый элемент должен предшествовать элементу, с которым он должен находиться рядом на странице. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* этот класс можно использовать для обтекания элемента слева на странице. Обтекаемый элемент должен предшествовать элементу, с которым он должен находиться рядом на странице. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* этот класс можно поместить в теге <br /> или в пустом блоке DIV в качестве конечного элемента, следующего за последним обтекаемым DIV (внутри #container), если .#footer удален или извлечен из #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="common.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="" alt="Место для логотипа" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="#">Первая ссылка</a></li>
+      <li><a href="#">Вторая ссылка</a></li>
+      <li><a href="#">Третья ссылка</a></li>
+      <li><a href="#">Четвертая ссылка</a></li>
+    </ul>
+    <p> Вышеуказанные ссылки демонстрируют базовую структуру навигации с использованием неупорядоченного списка, стилизованного при помощи CSS. Взяв ее за отправную точку и изменяя свойства, можно создать свой неповторимый дизайн. Если нужны выпадающие меню, их можно создать при помощи a Spry menu — мини-приложения menu из Adobe Exchange или ряда других инструментов javascript или CSS.</p>
+    <p>Если нужна навигация вдоль верха, просто перенесите ul.nav в верх страницы и заново создайте стиль.</p>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <h1 align="center">instruction</h1>
+    <table width="200" border="1">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+    
+    <h1>Test</h1>
+    <p>1.Downloaded VSFLEX3.OCX to your system32 folder within the Windows folder. [c:WINDOWSsystem32]<br>
+      2.Click on the Start button, then click the Run... option<br>
+      3.In the &quot;Open&quot; line, type the following (without quotes) &quot;regsvr32 VSFLEX3.OCX&quot;, then click the &quot;OK&quot; button.<br>
+    4.If the installation was successful, you should see a message saying that your file was successfully installed/uninstalled.</p>
+
+    <!-- end .content --></div>
+  <div class="footer">
+    <p>Этот .footer содержит объявление position:relative, чтобы Internet Explorer 6 получил hasLayout для .footer и правильно выполнил очистку. Если вам не нужна поддержка IE6, этот .footer можно удалить.</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

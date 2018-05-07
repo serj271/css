@@ -1,0 +1,16 @@
+*html #main{
+    height: 100%;
+}
+
+*html .border, *html .border .bottom{
+/*    background-image: none;*/
+/*    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src = 'i/border.png',
+        sizingMethod = 'crop'
+    );*/
+}
+*html .border.bottom{
+    overflow: hidden;
+}
+
+

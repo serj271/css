@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> Dialog from onload</title>
+<script src="/ajax/ajax.js" type="text/javascript" >
+</script>
+<script type="text/javascript" >
+<!--
+function fullScreen(){
+    this.moveTo(0,0);
+    this.outerWidth=screen.availWidth;
+    this.outerHeight=screen.availHight;
+    
+}
+
+window.maximize=fullScreen;
+
+
+
+-->
+</script>
+</head>
+<body >
+<input type="button" onclick="window.maximize()" value="maximize"/>
+
+<div id='test' style="position: absolute; top:50px; left: 100px;margin: 10px">test</div>
+
+<div id="main" >main</div>
+
+
+</body>
+    
+</html>

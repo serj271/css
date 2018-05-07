@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><title> CSS Gallery menu</title>
+<style type="text/css">
+<!--
+.col1, .col2, .footer {
+    padding: 10px;
+}
+.col1 {
+    float: left;
+    width: 100px;
+    background: #E8D9A9;
+}
+.col2 {
+    margin-left: 120px;
+    background: #ECC0A4;
+} 
+.photo {
+    width: 150px;
+    border: 1px solid #333;
+    text-align: center;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+}
+
+.footer {
+    background: #9A5044;
+    color: #FFF;
+}
+.clearleft:after {
+    content: ".";
+    clear: left;
+    visibility: hidden;
+    display: block;
+    height: 0;
+}
+-->
+</style>
+
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+<!--
+
+$(document).ready(
+    function(){
+    }
+);
+
+
+-->
+</script>
+
+</head>
+<body>
+
+<div class="col1"><h3>Menu</h3><p>Photos</p>
+    <p>Order to years</p>
+    <p>Orders to cooments</p>
+</div>    
+<div class="col2 clearleft">
+    <div class="photo">
+	<p><img src="3.jpg" width= "120px" /></p>
+	<p class="caption">Marginal</p>
+    </div>
+    <div class="photo">
+	<p><img src="4.jpg" width= "120px" /></p>
+	<p class="caption">Study</p>
+    </div>    
+    <p>New string</p>
+</div>
+<div class="footer">Footer</div>
+
+
+
+
+
+</body>
+</html>

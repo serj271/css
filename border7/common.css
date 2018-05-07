@@ -1,0 +1,65 @@
+body {
+    background:#69c;
+}
+.border{
+    width: 100px;
+    position: relative;
+    margin: 100px 100px;
+}
+.border .content{
+    padding:20px;
+/*    border: 2px solid #369;*/
+    background: #f9f7ac;/*  forma */
+    border-left: 1px solid #6466c8;
+    border-right: 1px solid #6466c8;
+}
+.border .png{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;       
+/*    overflow: hidden;*/
+}
+.border .top{
+    top: -10px;    
+/*    background: #fff;*/
+}
+
+.border .png i{
+    position: absolute;
+    height: 30px;
+    left:-20px;
+/*    background: #f60;         */
+    width: 100%;
+}
+.border .png b{
+    position: absolute;
+    height: 30px;
+    left: -20px;
+    margin-left: 100%;
+    width: 20px;
+/*    background: #f05;*/
+    top:0;  
+}
+.border .bottom i, .border .bottom b{
+    top: -10px;
+}
+.border .png i{
+/*    position: absolute;
+    height: 30px;
+    left: -10px;
+    top: 0;*/
+    background: url(./border9.png) no-repeat;
+/*    background: #fff;*/
+}
+
+.border .png b{
+/*    position: absolute;
+    height: 30px;
+    left: -10px;
+    top: 0;*/
+    background: url(./border-10-b.png) no-repeat;
+/*    background: url(./border9.png) no-repeat;*/
+/*    background: #fff;*/
+}
+

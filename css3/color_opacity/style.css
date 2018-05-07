@@ -1,0 +1,26 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:50px auto;
+	width:320px;
+	height:187px;
+}
+.bloc1{
+	background:url('img1.jpg');
+	padding:40px; 
+}
+.bloc1 p {
+  	background-color: rgba(255,255,255, 0.4);
+	color: rgba(0, 0, 0, 0.2);	
+	padding: 20px;
+	font: bold 20px "Trebuchet MS";
+}
+.bloc2 p {
+	background-color: hsla(360, 0% ,100%, 04);
+	color: hsla(0, 94%, 48%, 0.4);	
+	padding: 20px;
+	font: bold 20px "Trebuchet MS";
+}	

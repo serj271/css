@@ -1,0 +1,14 @@
+*html .border, *html .border .bottom{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../border-1/i/border.png',
+    sizingMethod='crop'
+    );
+
+    }
+*html .border .bottom{
+  /* font-size:0;*/
+    overflow:hidden;
+
+
+    *}
