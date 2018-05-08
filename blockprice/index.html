@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta  name="author" content="">
     <title>block price</title>
-
     <link href="./css/main.css" type="text/css" rel="stylesheet" />
     <link href="./less/style.css" type="text/css" rel="stylesheet" />
     <link href="./css/bootstrap.css" type="text/css" rel="stylesheet" />
@@ -15,9 +14,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-bottom"></nav>
-
-
+<!--<nav class="navbar navbar-inverse navbar-fixed-bottom"></nav>-->
 
 <main class="main">
     <div class="container">
@@ -59,14 +56,14 @@
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2">
                     <div class="main-form">
-                        <h2 class="main-form-header">Для расчёта точной стоимости<br/>
+                        <h2 class="form-header">Для расчёта точной стоимости<br/>
                             закажите <strong>выезд замерщика</strong> </h2>
-                        <form action="#">
+                        <form action="#" class="form">
                             <label for="#">Ваше имя</label>
-                            <input  class="main-form-input" type="text"/>
+                            <input  class="form-input" type="text"/>
                             <label for="#">Номер телефона</label>
-                            <input  class="main-form-input" type="text"/>
-                            <button class="main-form-btn button" type="submit">Оставьте заявку</button>
+                            <input  class="form-input" type="text"/>
+                            <button class="form-btn button" type="submit">Оставьте заявку</button>
                             <small>Приедем в день обращения</small>
                         </form>
                     </div>
@@ -237,7 +234,7 @@
             <div class="feedback-slider_item">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="fotorama" data-nav="thumbs">
+                        <div class="fotorama" data-nav="thumbs" data-width="100%">
                                 <img src="img/feedback/photo/1.png" alt="">
                                 <img src="img/feedback/photo/2.png" alt="">
                                 <img src="img/feedback/photo/3.png" alt="">
@@ -307,7 +304,32 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="com-md-8 col-md-offset-2">
+                <div class="feedback-form">
+                    <h3>Хотите так же? Оставьте Ваши контактные данные </h3>
+                    <form action="#" class="form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="#">Ваше имя</label>
+                                <input  class="form-input" type="text"/>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="#">Номер телефона</label>
+                                <input  class="form-input" type="text"/>
+                            </div>
+                        </div>
+                        <!--row-->
+                        <button class="form-btn feedback-btn button" type="submit">Оставьте заявку</button>
+                    </form>
+                </div>
+                <!--end feedback form -->
+            </div>
+        </div>
+
     </div>
+    <!--container-->
+    <img src="img/hand.png" alt="" class="hand" />
 </section>
 
 <section class="scheme">
@@ -513,6 +535,105 @@
     </div>
 </section>
 
+<section class="materials">
+
+</section>
+
+<section class="tour">
+    <div class="container">
+        <div class="main-content">
+            <div class="row">
+                <div class="col-md-7 col-lg-5 col-sm-12">
+                    <div class="main-title">
+                        <h1>Посмотрите  как мы работаем </h1>
+                        <p class="main-subtitle tour-subtitle">Вы можете сделать это, приехав на один из наших объектов, и понаблюдав за ходом работ. <br>Увидите оборудование, материалы и качество исполнения.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-lg-offset-3 col-md-5 col-md-offset-0 col-sm8 col-sm-offset-2">
+                    <div class="main-form">
+                        <h2 class="form-header">Для расчёта точной стоимости<br/>
+                            закажите <strong>выезд замерщика</strong> </h2>
+                        <form action="#" class="form">
+                            <label for="#">Ваше имя</label>
+                            <input  class="form-input" type="text"/>
+                            <label for="#">Номер телефона</label>
+                            <input  class="form-input" type="text"/>
+                            <button class="form-btn button tour-btn" type="submit">записаться на просмотр</button>
+                            <small>Подберем ближайщий к вам объект</small>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="upsell">
+
+</section>
+
+<section class="contacts">
+    <div class="container">
+        <div class="section-header">
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Контакты</h2>
+                <p>Адрес офиса:<br/>Москва, копейское шоссе, 12, офис 34</p>
+                <div class="map">
+                    <img src="img/map.png" alt="" />
+                    <!--<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1712c4cca1bc20054c98d961d3d0fbacb563e93e96e6939512d5eee3e42cfe2e&amp;width=500&amp;height=300&amp;lang=ru_RU&amp;scroll=false"></script>-->
+                </div>
+                <p>Номер телефона: <br/>
+                    <strong>+7 495 771 05 08 </strong>
+                </p>
+                <p>E-mail: <br /><a class="contacts-link" href="mailto:order@gipsolit.ru">order@gipsolit.ru</a></p>
+                <p>Реквизиты<br />ИНН 35453453  ОГРН 34234234</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6 col-sm-offset-3">
+                <div class="main-form contacts-form">
+                    <h2 class="form-header">Оставьте контактные данные  для связи </h2>
+                    <form action="#" class="form">
+                        <label for="#">Ваше имя</label>
+                        <input  class="form-input" type="text"/>
+                        <label for="#">Номер телефона</label>
+                        <input  class="form-input" type="text"/>
+                        <label for="#">Email</label>
+                        <input  class="form-input" type="text"/>
+                        <label for="#">Сообщение</label>
+                        <textarea  class="form-textarea" rows="5"></textarea>
+                        <button class="form-btn button" type="submit">Оставьте заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+            </div>
+            <div class="col-md-4">
+               <div class="footer-contacts"> <p><strong>+7 495 771 05 08 </strong></p>
+                <p><a class="contacts-link" href="mailto:order@gipsolit.ru">order@gipsolit.ru</a></p>
+                <p  class="contacts-link">Пн-Пт: с 9:00 до 18:00 </p></div>
+            </div>
+            <div class="col-md-4">
+               <div class="footer-dev-logo"> <p>Разработка сайта:
+                </p>
+                <img src="img/dev-logo.png" alt="" /></div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
 <div class="popup">
     <div class="popup-dialog">
         <div class="popup-content">
@@ -520,14 +641,14 @@
             <h4 class="popup-header">Заинтересовало</h4>
             <p>Оставьте свои конт данные <br/>для связи</p>
             <div class="main-form popup-form">
-                <form action="#">
+                <form action="#" class="form">
                     <label for="#">Ваше имя</label>
-                    <input  class="main-form-input" type="text"/>
+                    <input  class="form-input" type="text"/>
                     <label for="#">Номер телефона</label>
-                    <input  class="main-form-input" type="text"/>
+                    <input  class="form-input" type="text"/>
                     <label for="#">Сообщение</label>
-                    <textarea rows="5" class="main-form-input"></textarea>
-                    <button class="main-form-btn button" type="submit">Оставьте заявку</button>
+                    <textarea rows="5" class="form-input"></textarea>
+                    <button class="form-btn button" type="submit">Оставьте заявку</button>
                 </form>
             </div>
         </div>

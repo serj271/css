@@ -14,23 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="420" column="49" selection-start-line="420" selection-start-column="49" selection-end-line="420" selection-end-column="49" />
-              <folding>
-                <element signature="e#8708#8715#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="566">
+              <caret line="593" column="83" selection-start-line="593" selection-start-column="83" selection-end-line="593" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
+            <state relative-caret-position="10710">
+              <caret line="630" column="24" selection-start-line="630" selection-start-column="24" selection-end-line="630" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -49,6 +46,7 @@
     <findStrings>
       <find>hover</find>
       <find>357</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;strong&gt;357&lt;/strong&gt;</replace>
@@ -81,9 +79,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
-    <option name="y" value="27" />
-    <option name="width" value="698" />
+    <option name="x" value="534" />
+    <option name="y" value="53" />
+    <option name="width" value="724" />
     <option name="height" value="963" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -119,7 +117,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.22624877" />
   </component>
   <component name="RunDashboard">
@@ -156,22 +154,22 @@
       <workItem from="1525321596256" duration="13036000" />
       <workItem from="1525414671995" duration="20841000" />
       <workItem from="1525454474263" duration="1760000" />
-      <workItem from="1525456269364" duration="42161000" />
+      <workItem from="1525456269364" duration="58087000" />
+      <workItem from="1525716399503" duration="527000" />
+      <workItem from="1525716946047" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77798000" />
+    <option name="totallyTimeSpent" value="94254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="558" y="27" width="698" height="963" extended-state="0" />
-    <editor active="true" />
+    <frame x="534" y="53" width="724" height="963" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24923077" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045593" side_tool="true" weight="0.32886723" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544072" weight="0.3275649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -190,6 +188,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Salesforce" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,11 +207,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10081">
+          <caret line="593" column="83" selection-start-line="593" selection-start-column="83" selection-end-line="593" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10710">
+          <caret line="630" column="24" selection-start-line="630" selection-start-column="24" selection-end-line="630" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10081">
+          <caret line="593" column="83" selection-start-line="593" selection-start-column="83" selection-end-line="593" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10710">
+          <caret line="630" column="24" selection-start-line="630" selection-start-column="24" selection-end-line="630" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="96" column="78" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
-          <folding>
-            <element signature="e#8708#8715#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -265,20 +289,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="420" column="49" selection-start-line="420" selection-start-column="49" selection-end-line="420" selection-end-column="49" />
-          <folding>
-            <element signature="e#8708#8715#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="10710">
+          <caret line="630" column="24" selection-start-line="630" selection-start-column="24" selection-end-line="630" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
+        <state relative-caret-position="566">
+          <caret line="593" column="83" selection-start-line="593" selection-start-column="83" selection-end-line="593" selection-end-column="83" />
         </state>
       </provider>
     </entry>

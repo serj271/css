@@ -68,6 +68,46 @@ button, input, a, textarea {
   }
 }
 
+.form {
+  padding: 4rem 5rem;
+  background-color: @light;
+  text-align: center;
+  &-header {
+    margin-bottom: 4rem;
+    font-size: 1.8rem;
+    strong {
+      font-size: 1.9rem;
+    }
+  }
+  /*filed foe input*/
+  &-input, &-textarea {
+    display: block;
+    margin: 2rem 0;
+    width: 100%;
+    border: 1px solid @border-input;
+    border-radius: 5px;
+    padding:  1.7rem;
+  }
+  label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 0.5rem;
+    .reg();
+    font-size: 1.3rem;
+    background-color: @light;
+  }
+  small {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  &-btn {
+    display: block;
+    height: 5.5rem;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+}
 /* typografy*/
 
 section {
@@ -133,46 +173,6 @@ section {
     .bold();
   }
   /*main form*/
-  &-form {
-    padding: 4rem 5rem;
-    background-color: @light;
-    text-align: center;
-    &-header {
-      margin-bottom: 4rem;
-      font-size: 1.8rem;
-      strong {
-        font-size: 1.9rem;
-      }
-    }
-    /*filed foe input*/
-    &-input {
-      display: block;
-      margin: 2rem 0;
-      width: 100%;
-      border: 1px solid @border-input;
-      border-radius: 5px;
-      padding:  1.7rem;
-    }
-    label {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      padding: 0.5rem;
-      font-size: 1.3rem;
-      background-color: @light;
-    }
-    small {
-      display: block;
-      margin-top: 1.5rem;
-    }
-    &-btn {
-      display: block;
-      height: 5.5rem;
-      width: 100%;
-      font-size: 1.6rem;
-    }
-  }
-
 }
 
 .wrap {
@@ -309,6 +309,7 @@ section {
 }
 /*secrion feedback*/
 .feedback {
+  position: relative;
   background: url('../img/feedback/feedback-bg.png') no-repeat center;
   background-size: cover;
   &-text {
@@ -364,6 +365,30 @@ section {
       }
     }
   }
+  &-form {
+    margin-top: 5rem;
+    padding: 4rem 10rem;
+    background-color: @light;
+    text-align: center;
+    h3 {
+      margin-bottom: 1rem;
+      .bold();
+      font-size: 2rem;
+    }
+    label {
+      transform: translate(-50%, 8px);
+    }
+  }
+  &-btn {
+    max-width: 40rem;
+    margin: auto;
+  }
+  .hand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 30rem;
+  }
 }
 /* scheme*/
 .scheme {
@@ -414,7 +439,68 @@ section {
     font-size: 1.9rem;
   }
 }
+/*contacts*/
+.contacts {
+  background: url("../img/contacts-bg.png") no-repeat center;
+  background-size: cover;
+  h2 {
+    .bold();
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  &-link {
+    display: inline-block;
+    color: @text;
+    border-bottom: 1px dotted @text;
+    &:hover {
+      color: darken(@text, 10%);
+    }
+  }
+  /* header by form*/
+  &-form {
+    h2 {
+      font-size: 1.9rem;
+      .reg();
+      margin-bottom: 3rem;
+    }
+  }
+}
 
+/*as we worked*/
+.tour {
+  background: url("../img/tour-bg.png") center no-repeat;
+  background-size: cover;
+  &-subtitle {
+    font-size: 2.2rem;
+  }
+  &-btn {
+    padding: 1rem 2rem;
+  }
+}
+
+/*доп услуги*/
+.upsell {
+
+}
+
+/* footer*/
+footer {
+  padding: 4rem 0;
+  background-color: @light;
+}
+.footer {
+  &-contacts {
+    text-align: center;
+    padding-top: 0.5rem;
+    p {
+      margin: 0;
+    }
+  }
+  &-dev-logo {
+    text-align: right;
+  }
+}
 
 /*modela windows */
 .popup {
@@ -457,6 +543,18 @@ section {
   }
 }
 
+@media (max-width: 1199px) {
+  .feedback {
+    &-form {
+      padding: 3rem 5rem;
+    }
+    .fotorama {
+      margin-bottom: 3rem;
+    }
+  }
+
+}
+
 @media (max-width: 991px) {
   .main {
     background-position: top right;
@@ -493,6 +591,46 @@ section {
   .section-header_light {
     margin-bottom: 0;
   }
+  .feedback {
+    &-form {
+      label {
+        transform: translate(-50%,-50%);
+      }
+    }
+    .hand {
+      display: none;
+    }
+    .problems {
+      &-list {
+        min-height: auto;
+      }
+      &-women {
+        display: none;
+      }
+    }
+  }
+  .tour {
+    background: none;
+    background-color: @bg-light;
+  }
+  .contacts {
+    background: none;
+    background-color: @bg-light;
+    &-form {
+      margin-top: 3rem;
+    }
+  }
+  footer {
+    text-align: center;
+  }
+  .footer {
+    &-contacts {
+      margin: 2rem 0;
+    }
+    &-dev-logo {
+      text-align: center;
+    }
+  }
 }
 @media (max-width: 767px) {
   .main {
@@ -510,6 +648,14 @@ section {
     text-align: center;
     &-block {
       min-height: 20rem;
+    }
+  }
+  .feedback {
+    &-prev-btn {
+      left: 0;
+    }
+    &-next-btn {
+      right: 0;
     }
   }
 }
