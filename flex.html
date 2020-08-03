@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}
+		div#one {display: flex;}
+		div#two {display: inline-flex;}
+		div {border: 1px dashed; background: silver;}
+		div > * {border: 1px solid; background: #AAA;}
+		div p {margin: 0;}		
+	</style>
+    
+</head>
+<body>
+	<div id="one">
+		<p>flex item with<br>two longer lines</p>
+		<span>flex item</span>
+		<p>flex item</p>
+	</div>
+	<div id="two">
+		<span>flex item with<br>two longer lines</span>
+		<span>flex item</span>
+		<p>flex item</p>
+	</div>
+</body>
+</html>

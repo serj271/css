@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box-decoration-break</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}
+		p {
+			font-size: 15px; line-height: 1em;
+			
+		}
+		p span {
+			background: #FAA; padding-top: 10px; padding-bottom: 10px;
+			
+		}
+		span.ex1 { 
+		  -webkit-box-decoration-break: clone;
+		  -o-box-decoration-break: clone;
+		  box-decoration-break: clone;
+		}
+
+		span.ex2 { 
+		  -webkit-box-decoration-break: slice;
+		  -o-box-decoration-break: slice;
+		  box-decoration-break: slice;
+		}
+	</style>
+    
+</head>
+<body>
+
+<p>
+All of the text within the<span class="ex1">the height of the line box</span> span element will have a content area 15 pixels tall, and
+we’ve applied 10 pixels of padding to the top and bottom of each content area. The
+extra pixels won’t increase , which would be fine, except
+there is a background color. Thus
+
+</p>
+
+<p>
+All of the text within the span element will have a content area 15 pixels tall, and
+we’ve applied 10 pixels of padding to the top and bottom of each content area. The
+extra pixels won’t increase <span class="ex2">the height of the line box</span>, which would be fine, except
+there is a background color. Thus
+
+</p>
+</body>
+</html>

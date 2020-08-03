@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}
+		* {
+			outline: 1px #ccc solid;
+			margin: 10px;
+			padding: 10px;
+		}
+			body, nav, main, article {
+			display: flex;
+		}
+			body, article {
+			flex-direction: column;
+		}
+		
+	</style>
+    
+</head>
+<body>
+
+	<header>
+		<h1>My Page's title!</h1>
+	</header>
+	<nav>
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/blog">Blog</a>
+		<a href="/jobs">Careers</a>
+		<a href="/contact">Contact Us</a>
+	</nav>
+	<main>
+		<article>
+			<img alt="" src="img1.jpg">
+			<p>This is some awesome content that is on the page.</p>
+			<button>Go Somewhere</button>
+		</article>
+		<article>
+			<img alt="" src="img2.jpg">
+			<p>This is more content than the previous box, but less than
+			the next.</p>
+			<button>Click Me</button>
+		</article>
+		<article>
+			<img alt="" src="img3.jpg">
+			<p>We have lots of content here to show that content can grow, and
+			everything can be the same size if you use flexbox.</p>
+			<button>Do Something</button>
+		</article>
+	</main>
+	<footer>Copyright &#169; 2018</footer>
+</body>
+</html>

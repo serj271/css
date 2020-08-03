@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute1</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}		
+	</style>
+    
+</head>
+<body>
+	<div style="position: relative; width: 25em; border: 1px dotted;">
+		An absolutely positioned element can have its content 
+		<span style="position:absolute; top: 0; left: 0; right: auto; width: auto; background: silver;">shrink-wrapped</span> 
+		thanks to the way positioning rules work.
+	</div>
+	<div style="position: relative; width: 25em; border: 1px dotted;">
+	An absolutely positioned element can have its content <span style="position:
+	absolute; top: 0; left: 1em; right: 1em; width: 10em; margin: 0 auto;
+	background: silver;">shrink-wrapped</span> thanks to the way positioning
+	rules work.
+	</div>
+	<div style="position: relative; width: 25em; border: 1px dotted;">
+	An absolutely positioned element can have its content <span style="position:
+	absolute; top: 0; left: 1em; right: 1em; width: 10em; margin-left: 1em;
+	margin-right: 1em; background: silver;">shrink-wrapped</span> thanks to the
+	way positioning rules work.
+	</div>
+	<div style="position: relative; width: 25em; border: 1px dotted;">
+	An absolutely positioned element can have its content 
+	<span style="position: absolute; top: 0; left: 1em;
+	right: 1em; width: auto; margin-left: 1em; margin-right: 1em;
+	background: silver;">not shrink-wrapped</span>
+	thanks to the
+	way positioning rules work.
+	</div>
+</body>
+</html>

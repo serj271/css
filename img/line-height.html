@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Replaced Elements</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}
+		p {font-size: 15px; line-height: 18px;}
+		<!-- img {height: 30px; margin: 0; padding: 0; border: none;} -->
+		img {height: 50px; width: 50px;}
+		img.one {margin: 0; padding: 0; border: 3px dotted;}
+		img.two {margin: 10px; padding: 10px; border: 3px solid;}
+		td {font-size: 12px;}
+		img.block {display: block;}
+	</style>
+    
+</head>
+<body>
+	<p>
+	to accommodate the replaced element, plus any box properties. In other words, the
+	entirety of the replaced element—content, margins, borders,<br />and padding—is used to<img class="one" src="laptop.png" >
+	define the element’s inline box.<img  class="two" src="laptop.png" > The following styles lead to one such example, as<img src="laptop.png" >
+	
+	</p>
+	<table>
+		<tbody>
+			<tr>
+				<td><img  src="laptop.png" >
+				</td>
+				<td>
+				test
+				</td>
+			</tr>
+			<tr>
+			<td>
+				<img  class="block" src="laptop.png" >
+			</td>
+			<td>
+			test
+			</td>
+			</tr>
+		</tbody>
+	</table>
+</html>

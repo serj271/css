@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inline</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}
+		div {width: 100px; border: 3px solid black;}
+		span {border: 1px dashed black;}
+	</style>
+    
+</head>
+<body>
+<div>
+	<span>
+	By contrast, look inside a block-level element, such as a paragraph.
+You may well ask, how did all those lines of text get there? What controls their
+arrangement? How can I affect it?
+	</span>
+</div>
+<p style="font-size: 12px; line-height: 12px;">
+This is text, <em>some of which is emphasized</em>, plus other text<br>
+which is <strong style="font-size: 24px;">strongly emphasized</strong>
+and which is<br>
+larger than the surrounding text.
+</p>
+<p style="font-size: 12px; line-height: 12px;">
+This is text, <em>some of which is emphasized</em>, plus other text<br>
+which is <strong style="font-size: 24px; vertical-align: 4px;">strongly
+emphasized</strong> and that is<br>
+larger than the surrounding text.
+</p>
+<p style="font-size: 12px; line-height: 12px;">
+This is text, <em>some of which is emphasized</em>,<br>
+plus other text that is <strong style="font-size: 24px;">strong</strong>
+and <span style="vertical-align: top;">tall</span> and is<br>
+larger than the surrounding text.
+</p>
+<p style="font-size: 12px; line-height: 12px;">
+This is text, <em>some of which is emphasized</em>,<br>
+plus other text that is <strong style="font-size: 24px;">strong</strong>
+and <span style="vertical-align: top; line-height: 2px;">tall</span> and is<br>
+larger than the surrounding text.
+</p>
+
+</body>
+</html>

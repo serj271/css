@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute1</title>
+	<style>
+		*,body {
+		   margin: 0;
+		   padding: 0;
+		}		
+	</style>
+    
+</head>
+<body>
+	<div style="position: relative; width: 30em; height: 10em; border: 1px solid;">
+		<div style="position: absolute; left: 0; width: 30%;
+			background: #CCC; top: 0;">
+			element A
+		</div>
+		<div style="position: absolute; left: 35%; width: 30%;
+			background: #AAA; top: 0; height: 50%;">
+			element B
+		</div>
+		<div style="position: absolute; left: 70%; width: 30%;
+			background: #CCC; height: 50%; bottom: 0;">
+			element C
+		</div>
+	</div>
+	<div style="position: relative; width: 10em; height: 10em; border: 1px solid;">
+		<div style="position: absolute; left: 0; width: 100%; background: #CCC;
+		top: 0; height: 5em; bottom: 0; margin: 0;">
+		element D
+		</div>
+	</div>
+</body>
+</html>
